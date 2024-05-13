@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8397618129801995231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2818827679581529856}
+  - component: {fileID: 4258721133867469948}
+  m_Layer: 0
+  m_Name: TrapSpear (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2818827679581529856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8397618129801995231}
+  m_LocalRotation: {x: -0.07419135, y: 0.3052099, z: 0.12860206, w: 0.9406403}
+  m_LocalPosition: {x: 17.71, y: 3.43, z: -11.06}
+  m_LocalScale: {x: 1, y: 3, z: 0.30000013}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 772639262692179307}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -12.596, y: 34.666, z: 11.625}
+--- !u!114 &4258721133867469948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8397618129801995231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31120c4ef4b320247b037facef84426e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Trap: {fileID: 0}
+  SpearPrefab: {fileID: 3916228171672529277, guid: 9b9143dcfcb83654d8fab9d2089e4653, type: 3}
+  Spawn: {fileID: 0}
+  SpawnRotation: {fileID: 0}
+  Speed: 7
+--- !u!1001 &3111555573662123785
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2818827679581529856}
+    m_Modifications:
+    - target: {fileID: 2420262716687907426, guid: 4fa3f65ca6be3f04086d2075960438ce, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2420262716687907426, guid: 4fa3f65ca6be3f04086d2075960438ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2420262716687907426, guid: 4fa3f65ca6be3f04086d2075960438ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 2420262716687907426, guid: 4fa3f65ca6be3f04086d2075960438ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 2420262716687907426, guid: 4fa3f65ca6be3f04086d2075960438ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.97817475
+      objectReference: {fileID: 0}
+    - target: {fileID: 2420262716687907426, guid: 4fa3f65ca6be3f04086d2075960438ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.019313725
+      objectReference: {fileID: 0}
+    - target: {fileID: 2420262716687907426, guid: 4fa3f65ca6be3f04086d2075960438ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.120059915
+      objectReference: {fileID: 0}
+    - target: {fileID: 2420262716687907426, guid: 4fa3f65ca6be3f04086d2075960438ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.16848366
+      objectReference: {fileID: 0}
+    - target: {fileID: 2420262716687907426, guid: 4fa3f65ca6be3f04086d2075960438ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 4.487
+      objectReference: {fileID: 0}
+    - target: {fileID: 2420262716687907426, guid: 4fa3f65ca6be3f04086d2075960438ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 13.243
+      objectReference: {fileID: 0}
+    - target: {fileID: 2420262716687907426, guid: 4fa3f65ca6be3f04086d2075960438ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -19.025
+      objectReference: {fileID: 0}
+    - target: {fileID: 6248707860448454642, guid: 4fa3f65ca6be3f04086d2075960438ce, type: 3}
+      propertyPath: m_Name
+      value: TrapOfSpear (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4fa3f65ca6be3f04086d2075960438ce, type: 3}
+--- !u!4 &772639262692179307 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2420262716687907426, guid: 4fa3f65ca6be3f04086d2075960438ce, type: 3}
+  m_PrefabInstance: {fileID: 3111555573662123785}
+  m_PrefabAsset: {fileID: 0}

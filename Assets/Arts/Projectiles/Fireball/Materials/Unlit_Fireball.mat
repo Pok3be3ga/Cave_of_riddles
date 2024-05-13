@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unlit_Fireball
+  m_Shader: {fileID: 4800000, guid: 712709b3359c0e845a2dd6da54488f53, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Ground_Test:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ground_Test2:
+        m_Texture: {fileID: 2800000, guid: 3233e8c7d346072449e3386cc98822a1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ground_Tex:
+        m_Texture: {fileID: 2800000, guid: 3233e8c7d346072449e3386cc98822a1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Lava_Em:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Lava_Tex:
+        m_Texture: {fileID: 2800000, guid: 8117d30f00f956b44bebc8b3ba30d9d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Test:
+        m_Texture: {fileID: 2800000, guid: 8117d30f00f956b44bebc8b3ba30d9d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Blink_Speed: 2
+    - _Blink_Speed1: 2
+    - _Float1: -1
+    - _Float2: 0.05
+    - _Float3: 1
+    - _Frensel_Power: 1
+    - _Frensel_Power1: 2
+    - _Frensel_Scale: 1
+    - _Frensel_Scale1: 1
+    - _Tilling: 1
+    - _Twirl_Speed: 0.1
+    - _Twirl_Strength: 0.5
+    - __dirty: 0
+    m_Colors:
+    - _Add_Color: {r: 0.8584906, g: 0.7937289, b: 0.19842473, a: 0}
+    - _Color0: {r: 1, g: 0.2908949, b: 0, a: 0}
+    - _Color1: {r: 1, g: 0.69389236, b: 0, a: 0}
+    - _Color2: {r: 0.754717, g: 0.0035599943, b: 0.0035599943, a: 0}
+    - _Frensel_Color: {r: 1, g: 0.0729626, b: 0, a: 0}
+    - _Main_Color: {r: 1, g: 0.59836304, b: 0, a: 0}
+    - _Main_Color1: {r: 1, g: 0.12366667, b: 0, a: 0}
+    - _Vector1: {r: -0.67, g: 0.78, b: 0, a: 0}
+  m_BuildTextureStacks: []
